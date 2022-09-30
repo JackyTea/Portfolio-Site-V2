@@ -1,0 +1,266 @@
+html,
+body {
+  font-family: "Londrina Solid", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #5381ff;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  background: url("assets/images/hero_mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section > .hero-image {
+  display: none;
+}
+
+.hero-section > .hero-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section > .hero-info > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 52px;
+}
+
+.hero-section > .hero-info > h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+}
+
+.hero-section > .hero-info > .hero-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section > .hero-info > .hero-links > .hero-link {
+  margin: 8px;
+  padding: 5px 22px;
+  font-size: 24px;
+  border: #5381ff 2px solid;
+  border-radius: 5px;
+}
+
+.experience-section {
+  text-align: center;
+  height: auto;
+}
+
+.experience-section > h4 {
+  margin: 10px 0 40px 0;
+  padding: 0;
+}
+
+.experience-section > .experience-card {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px 0;
+  border: rgb(230, 230, 230) 1px solid;
+  border-radius: 5px;
+}
+
+.experience-section > .experience-card > .experience-icon {
+  padding: 20px 10px;
+  max-width: 70px;
+  height: auto;
+}
+
+.experience-section > .experience-card > .experience-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.experience-section > .experience-card > .experience-info > .experience-job {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.experience-section
+  > .experience-card
+  > .experience-info
+  > .experience-job
+  > h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.experience-section
+  > .experience-card
+  > .experience-info
+  > .experience-job
+  > .experience-division,
+.experience-tech {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #555555;
+}
+
+.experience-section > .experience-card > .experience-info > .experience-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.experience-section
+  > .experience-card
+  > .experience-info
+  > .experience-date
+  > p {
+  margin: 0 5px 0 0;
+  padding: 0;
+  font-size: 20px;
+  color: #555555;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+
+  .hero-section > .hero-info > h1 {
+    font-size: 64px;
+  }
+
+  .hero-section > .hero-info > h3 {
+    font-size: 32px;
+  }
+
+  .hero-section > .hero-info > .hero-links > .hero-link {
+    padding: 5px 37px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+
+  .experience-section > .experience-card > .experience-icon {
+    padding: 20px 40px;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .experience-section
+    > .experience-card
+    > .experience-info
+    > .experience-job
+    > h5 {
+    font-size: 34px;
+  }
+
+  .experience-section
+    > .experience-card
+    > .experience-info
+    > .experience-job
+    > .experience-division,
+  .experience-tech {
+    font-size: 24px;
+  }
+
+  .hero-section {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+
+  .experience-section > .experience-card {
+    flex-direction: row;
+  }
+
+  .experience-section > .experience-card > .experience-info {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .experience-section > .experience-card > .experience-info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .experience-section > .experience-card > .experience-info > .experience-date {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experience-section
+    > .experience-card
+    > .experience-info
+    > .experience-date
+    > p {
+    padding: 0 20px;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+
+  .hero-section {
+    background: none;
+    justify-content: space-between;
+  }
+
+  .hero-section > .hero-image {
+    display: block;
+    width: 50%;
+    max-width: 550px;
+    height: auto;
+  }
+
+  .hero-section > .hero-info {
+    width: 50%;
+  }
+
+  .hero-section > .hero-info > .hero-links > .hero-link {
+    padding: 5px 25px;
+    font-size: 32px;
+  }
+}
