@@ -44,13 +44,13 @@ a {
 .hero-section > .hero-info > h1 {
   margin: 0;
   padding: 0;
-  font-size: 52px;
+  font-size: 48px;
 }
 
 .hero-section > .hero-info > h3 {
   margin: 0;
   padding: 0;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .hero-section > .hero-info > .hero-links {
@@ -61,8 +61,8 @@ a {
 
 .hero-section > .hero-info > .hero-links > .hero-link {
   margin: 8px;
-  padding: 5px 22px;
-  font-size: 24px;
+  padding: 5px 24px;
+  font-size: 20px;
   border: #5381ff 2px solid;
   border-radius: 5px;
 }
@@ -70,17 +70,20 @@ a {
 .experience-section {
   text-align: center;
   height: auto;
+  margin: 10px;
 }
 
 .experience-section > h4 {
-  margin: 10px 0 40px 0;
+  font-size: 32px;
+  margin: 10px 0 20px 0;
   padding: 0;
 }
 
 .experience-section > .experience-card {
   display: flex;
+  flex-direction: column;
   align-content: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   margin: 20px 0;
   padding: 20px 0;
@@ -89,9 +92,10 @@ a {
 }
 
 .experience-section > .experience-card > .experience-icon {
-  padding: 20px 10px;
-  max-width: 70px;
+  margin: 10px auto;
   height: auto;
+  max-width: 100px;
+  text-align: center;
 }
 
 .experience-section > .experience-card > .experience-info {
@@ -99,14 +103,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .experience-section > .experience-card > .experience-info > .experience-job {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .experience-section
@@ -114,9 +118,9 @@ a {
   > .experience-info
   > .experience-job
   > h5 {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .experience-section
@@ -125,7 +129,7 @@ a {
   > .experience-job
   > .experience-division,
 .experience-tech {
-  margin: 0;
+  margin: 2px 0;
   padding: 0;
   font-size: 18px;
   color: #555555;
@@ -133,8 +137,9 @@ a {
 
 .experience-section > .experience-card > .experience-info > .experience-date {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -143,9 +148,9 @@ a {
   > .experience-info
   > .experience-date
   > p {
-  margin: 0 5px 0 0;
+  margin: 10px 5px 0 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
   color: #555555;
 }
 
@@ -172,6 +177,19 @@ a {
     width: 720px;
   }
 
+  .hero-section {
+    background-size: contain;
+  }
+
+  .experience-section > h4 {
+    margin: 10px 0 40px 0;
+    font-size: 48px;
+  }
+
+  .experience-section > .experience-card {
+    flex-direction: row;
+  }
+
   .experience-section > .experience-card > .experience-icon {
     padding: 20px 40px;
     max-width: 150px;
@@ -183,6 +201,7 @@ a {
     > .experience-info
     > .experience-job
     > h5 {
+    margin: 0;
     font-size: 34px;
   }
 
@@ -195,8 +214,13 @@ a {
     font-size: 24px;
   }
 
-  .hero-section {
-    background-size: contain;
+  .experience-section
+    > .experience-card
+    > .experience-info
+    > .experience-date
+    > p {
+    padding: 0;
+    font-size: 28px;
   }
 }
 
@@ -205,21 +229,14 @@ a {
     width: 960px;
   }
 
-  .experience-section > .experience-card {
-    flex-direction: row;
-  }
-
-  .experience-section > .experience-card > .experience-info {
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .experience-section > .experience-card > .experience-info {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .experience-section > .experience-card > .experience-info > .experience-job {
+    align-items: flex-start;
   }
 
   .experience-section > .experience-card > .experience-info > .experience-date {
@@ -233,6 +250,7 @@ a {
     > .experience-info
     > .experience-date
     > p {
+    margin: 0;
     padding: 0 20px;
     font-size: 28px;
   }
