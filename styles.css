@@ -185,18 +185,19 @@ p {
 .project-section > .project-row > .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: rgb(230, 230, 230) 1px solid;
   border-radius: 5px;
-  padding: 40px 0;
+  padding: 20px 0;
   margin: 10px 0;
   width: 100%;
   height: auto;
 }
 
 .project-section > .project-row > .project-card > .project-icon {
-  padding: 10px;
+  margin: 0 10px 0 0;
+  padding: 5px 0 20px 0;
   max-width: 120px;
   height: auto;
 }
@@ -240,7 +241,7 @@ p {
   > .project-links
   > .project-link {
   margin: 0 10px 0 0;
-  padding: 5px 30px;
+  padding: 10px 30px;
   font-size: 16px;
   border: #5381ff 2px solid;
   border-radius: 5px;
@@ -376,8 +377,9 @@ p {
   }
 
   .project-section > .project-row > .project-card > .project-icon {
+    margin: 0 0 0 10px;
     padding: 20px;
-    max-width: 150px;
+    max-width: 140px;
   }
 
   .project-section
@@ -387,6 +389,7 @@ p {
     > .project-links
     > .project-link {
     font-size: 20px;
+    padding: 5px 30px;
   }
 
   .site-footer {
@@ -471,6 +474,7 @@ p {
   }
 
   .project-section > .project-row > .project-card {
+    padding: 40px 0;
     width: 48%;
     margin: 0;
   }
