@@ -246,6 +246,35 @@ p {
   border-radius: 5px;
 }
 
+.site-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 30px 10px;
+}
+
+.site-footer > p {
+  font-size: 24px;
+  color: #838282;
+}
+
+.site-footer > .social-links > .social-link:hover {
+  background: none;
+  transition: 0ms;
+}
+
+.site-footer > .social-links > .social-link > .social-icon {
+  max-width: 40px;
+  margin: 0 20px;
+  height: auto;
+}
+
+.site-footer > .social-links > .social-link > .social-icon:hover {
+  filter: brightness(50%);
+  transition: 100ms;
+}
+
 @media (min-width: 576px) {
   .container {
     width: 540px;
@@ -283,7 +312,7 @@ p {
   }
 
   .experience-section > .experience-card > .experience-icon {
-    padding: 20px 40px;
+    padding: 0px 40px;
     max-width: 150px;
     height: auto;
   }
@@ -358,6 +387,21 @@ p {
     > .project-links
     > .project-link {
     font-size: 20px;
+  }
+
+  .site-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px 40px 10px;
+  }
+
+  .site-footer > .social-links > .social-link > .social-icon {
+    max-width: 50px;
+    margin: 0 0 0 20px;
+  }
+
+  .site-footer > p {
+    font-size: 30px;
   }
 }
 
