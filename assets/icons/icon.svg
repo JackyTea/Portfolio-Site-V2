@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-icon">
+      <rect width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="icon" clip-path="url(#clip-icon)">
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="16" height="16" rx="2" fill="#fff"/>
+    <g id="cpu2" transform="translate(1.828 1.828)">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="0.998" height="2.308" transform="translate(3.546)" fill="#c9c9c9"/>
+      <rect id="Rectangle_65" data-name="Rectangle 65" width="0.998" height="2.308" transform="translate(5.674)" fill="#c9c9c9"/>
+      <rect id="Rectangle_66" data-name="Rectangle 66" width="0.998" height="2.308" transform="translate(7.801)" fill="#c9c9c9"/>
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="0.998" height="2.308" transform="translate(3.546 10.037)" fill="#a1a1a1"/>
+      <rect id="Rectangle_68" data-name="Rectangle 68" width="0.998" height="2.308" transform="translate(5.674 10.037)" fill="#a1a1a1"/>
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="0.998" height="2.308" transform="translate(7.801 10.037)" fill="#a1a1a1"/>
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="2.308" height="0.998" transform="translate(10.037 3.54)" fill="#a1a1a1"/>
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="2.308" height="0.998" transform="translate(10.037 5.667)" fill="#a1a1a1"/>
+      <path id="Path_2072" data-name="Path 2072" d="M0,0H2.308V1H0Z" transform="translate(10.037 7.795)" fill="#a1a1a1"/>
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="2.308" height="0.998" transform="translate(0 3.54)" fill="#c9c9c9"/>
+      <rect id="Rectangle_74" data-name="Rectangle 74" width="2.308" height="0.998" transform="translate(0 5.667)" fill="#c9c9c9"/>
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="2.308" height="0.998" transform="translate(0 7.795)" fill="#c9c9c9"/>
+      <path id="Path_2068" data-name="Path 2068" d="M96.41,98.37H94.451V94.451H96.41V92.546H92.546v7.729H96.41Z" transform="translate(-90.238 -90.238)" fill="#515c6a"/>
+      <path id="Path_2069" data-name="Path 2069" d="M251.364,92.546H247.5v1.905h1.959V98.37H247.5v1.905h3.864Z" transform="translate(-241.328 -90.238)" fill="#383f47"/>
+      <path id="Path_2071" data-name="Path 2071" d="M0,0H1.959V3.919H0Z" transform="translate(4.213 4.213)" fill="#8d8d8d"/>
+      <path id="Path_2070" data-name="Path 2070" d="M0,0H1.959V3.919H0Z" transform="translate(6.172 4.213)" fill="#636363"/>
+    </g>
+  </g>
+</svg>
