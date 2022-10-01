@@ -5,11 +5,21 @@ body {
   font-size: 48px;
   margin: 0;
   padding: 0;
+  color: rgb(58, 58, 58);
 }
 
 a {
   text-decoration: none;
   color: #5381ff;
+}
+
+a:hover {
+  background: #f2f4fd;
+  transition: 100ms;
+}
+
+p {
+  color: rgb(87, 87, 87);
 }
 
 .container {
@@ -94,7 +104,7 @@ a {
 .experience-section > .experience-card > .experience-icon {
   margin: 10px auto;
   height: auto;
-  max-width: 100px;
+  max-width: 120px;
   text-align: center;
 }
 
@@ -130,9 +140,8 @@ a {
   > .experience-division,
 .experience-tech {
   margin: 2px 0;
-  padding: 0;
-  font-size: 18px;
-  color: #555555;
+  padding: 0 20px;
+  font-size: 20px;
 }
 
 .experience-section > .experience-card > .experience-info > .experience-date {
@@ -150,8 +159,91 @@ a {
   > p {
   margin: 10px 5px 0 0;
   padding: 0;
+  font-size: 20px;
+}
+
+.project-section {
+  text-align: center;
+  height: auto;
+  margin: 10px;
+}
+
+.project-section > h4 {
+  font-size: 32px;
+  margin: 60px 0 20px 0;
+  padding: 0;
+}
+
+.project-section > .project-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.project-section > .project-row > .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: rgb(230, 230, 230) 1px solid;
+  border-radius: 5px;
+  padding: 40px 0;
+  margin: 10px 0;
+  width: 100%;
+  height: auto;
+}
+
+.project-section > .project-row > .project-card > .project-icon {
+  padding: 10px;
+  max-width: 120px;
+  height: auto;
+}
+
+.project-section > .project-row > .project-card > .project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.project-section > .project-row > .project-card > .project-info > h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.project-section > .project-row > .project-card > .project-info > p {
+  margin: 10px 0 20px 0;
+  padding: 0;
   font-size: 18px;
-  color: #555555;
+}
+
+.project-section
+  > .project-row
+  > .project-card
+  > .project-info
+  > .project-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section
+  > .project-row
+  > .project-card
+  > .project-info
+  > .project-links
+  > .project-link {
+  margin: 0 10px 0 0;
+  padding: 5px 30px;
+  font-size: 16px;
+  border: #5381ff 2px solid;
+  border-radius: 5px;
 }
 
 @media (min-width: 576px) {
@@ -211,6 +303,7 @@ a {
     > .experience-job
     > .experience-division,
   .experience-tech {
+    padding: 0;
     font-size: 24px;
   }
 
@@ -221,6 +314,50 @@ a {
     > p {
     padding: 0;
     font-size: 28px;
+  }
+
+  .project-section > h4 {
+    margin: 80px 0 40px 0;
+    font-size: 48px;
+  }
+
+  .project-section > .project-row > .project-card {
+    flex-direction: row;
+  }
+
+  .project-section > .project-row > .project-card > .project-info {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .project-section > .project-row > .project-card > .project-info > h5 {
+    font-size: 32px;
+  }
+
+  .project-section > .project-row > .project-card > .project-info > p {
+    font-size: 20px;
+  }
+
+  .project-section
+    > .project-row
+    > .project-card
+    > .project-info
+    > .project-links {
+    justify-content: flex-start;
+  }
+
+  .project-section > .project-row > .project-card > .project-icon {
+    padding: 20px;
+    max-width: 150px;
+  }
+
+  .project-section
+    > .project-row
+    > .project-card
+    > .project-info
+    > .project-links
+    > .project-link {
+    font-size: 20px;
   }
 }
 
@@ -280,5 +417,34 @@ a {
   .hero-section > .hero-info > .hero-links > .hero-link {
     padding: 5px 25px;
     font-size: 32px;
+  }
+
+  .project-section > .project-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .project-section > .project-row > .project-card {
+    width: 48%;
+    margin: 0;
+  }
+
+  .project-section
+    > .project-row
+    > .project-card
+    > .project-info
+    > .project-links {
+    justify-content: space-between;
+  }
+
+  .project-section
+    > .project-row
+    > .project-card
+    > .project-info
+    > .project-links
+    > .project-link {
+    margin: 0;
   }
 }
