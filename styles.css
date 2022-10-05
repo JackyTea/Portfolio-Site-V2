@@ -137,6 +137,16 @@ p {
   > .experience-card
   > .experience-info
   > .experience-job
+  > h5
+  > a:hover {
+  color: #235dff;
+  background: none;
+}
+
+.experience-section
+  > .experience-card
+  > .experience-info
+  > .experience-job
   > .experience-division,
 .experience-tech {
   margin: 2px 0;
